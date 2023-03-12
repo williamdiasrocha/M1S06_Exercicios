@@ -1,0 +1,9 @@
+CREATE DATABASE Venda
+
+use Venda
+
+CREATE TABLE William(
+	Id INT NOT NULL PRIMARY KEY,
+	Idade INT NOT NULL UNIQUE,
+	Cidade Varchar(MAX) NULL
+)
